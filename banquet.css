@@ -1,0 +1,280 @@
+/*HomePage*/
+.navbar {
+    transition: all 0.4s;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports*/ 
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+.text-small {
+    font-size: 0.9rem !important;
+}
+
+.header{
+    background-image: url('./Images/HomePage.jpg');
+    background-position: center;
+    background-size: cover;  
+  }
+
+  .overlay{
+    background-color: rgba(0, 0, 0, 0.55);
+  }
+
+  .nav-item{
+      color:white;
+  }
+
+
+/*button*/
+.button {
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(133, 30, 30,0.3);
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 6px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 3px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+/*About us*/
+  .btn{
+    border: 3px solid black;
+    font-size: 20px;
+    padding: 4px;
+    width: 150px;
+    border-radius: 0px;
+}
+
+.round{
+width: 80%;
+height: 130%;
+display: flex;
+color: #fff;
+align-items: center;
+text-align: center;
+position: relative; /* allows repositioning */
+}
+
+.line{
+    border: 1px solid gray;
+}
+
+/*card*/
+.card {
+    box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+  }
+
+.left-content{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 154px;
+}
+
+.button1{
+    border: 3px solid white;
+    font-size: 15px;
+    padding: 3px;
+    width: 120px;
+    border-radius: 0px;
+}
+
+
+.btn1{
+    border: 0px;
+    font-size: 9px;
+    padding: 4px;
+    width: 50px;
+    border-radius: 0px;
+    background-color: rgb(0, 0, 0,0.7);
+    border-radius: 25px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+/*Events*/
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .btn-social{
+    border: 3px solid white;
+    font-size: 15px;
+    padding: 6px;
+    width: 150px;
+    border-radius: 0px;
+  }
+  .social{
+    letter-spacing:3px;
+    font-size: 65px;
+    font-family: Montserrat;
+  }
+  .social-para{
+    font-size: 12px;
+    font-family: Montserrat;
+  }
+  .overlay-social{
+    background-color:  rgba(0, 0, 0, 0.55);
+  }
+
+  /*contact*/
+  .container-contact{
+    background-image: url('./Images/contact.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.55);
+  }
+
+body{
+    overflow-x: hidden;
+}
+
+/*go to top*/
+#myBtn {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 5px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #032733d5;/* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 4px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    width: 85px;
+  }
+  
+  #myBtn:hover {
+    background-color: #110f1ff3; /* Add a dark-grey background on hover */
+  }
+
+  /*scroll*/
+  .dummy-section{
+    background:#000;
+    width:100%;
+    height:100vh;
+    position: absolute;
+  }
+  
+  .timeline{
+    background:rgb(43, 42, 42);
+    height: 534px;
+    width: 4px;
+    border-radius: 5px;
+    margin: 20px 0 0 50px;
+    display: block;
+    float: left;
+    position: absolute;
+    margin-top: -44%;
+  }
+  
+  .point{
+    background:rgb(36, 35, 35);
+    width:20px;
+    height:20px;
+    display:inline-block;
+    border-radius:100%;
+    position:absolute;
+    left:-7.5px;
+  }
+  
+  .point a{
+    display:block;
+    width:100%;
+    height:100%;
+  }
+  
+  .point-1{
+    top:20px;
+  
+  }
+  
+  .point-2{
+    top:50%;
+  }
+  
+  .point-3{
+    bottom:20px;
+  }
+
+  .point.active
+  {background:white}

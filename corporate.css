@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .btn-social{
+    border: 3px solid white;
+    font-size: 15px;
+    padding: 6px;
+    width: 150px;
+    border-radius: 0px;
+  }
+  .social{
+    letter-spacing:3px;
+    font-size: 65px;
+    font-family: Montserrat;
+  }
+  .social-para{
+    font-size: 12px;
+    font-family: Montserrat;
+  }
+  .overlay-social{
+    background-color:  rgba(0, 0, 0, 0.55);
+  }
