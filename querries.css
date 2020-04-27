@@ -1,0 +1,134 @@
+/*small tablet to big tablets: 768 to 1023*/
+@media only screen and (max-width: 1023px){
+
+}
+
+
+/*small phones to small tablets: 481 to 767*/
+@media only screen and (max-width: 767px){
+
+}
+
+
+/*small phones from 0 to 480px*/
+@media only screen and (max-width: 500px){
+
+    /*home page*/
+    .home-text{
+        color: white; 
+        font-family: Montserrat; 
+        font-size: 38px;
+         margin-top: 14%;
+      }
+
+      .lead-para{
+        color: white; 
+        font-family: Montserrat; 
+        font-size: 22px;
+      }
+
+      .button-sm{
+          width: 96%;
+          margin-bottom: 28%;
+      }
+
+    /*about us page*/
+
+    /*about us content*/
+    
+
+
+    .card-social {
+        box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+        float: left;
+    }
+
+    .card-wedding {
+            box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+            float: left;
+      }
+
+      .card-corporate {
+        box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+        float: left;
+  }
+
+      .card-social p{
+        background-color: rgb(0, 0, 0,0.7);
+        color: white;
+        font-size: 9px;
+        margin-top: 590px;
+        border-radius: 2px 2px 21px 21px;
+        margin-right: 446px;
+        padding: 6px;
+        margin-left: 6px;
+      }  
+    
+      /*event pages - social*/
+
+   
+     .btn-social{
+        width: 25%;
+        padding: 5px;
+    }
+
+    /*scroll*/
+    .timeline-social{
+        background:rgb(43, 42, 42);
+        height: 70px;
+        width: 4px;
+        border-radius: 5px;
+        margin: 20px 0 0 50px;
+        display: block;
+        float: left;
+        position: absolute;
+        margin-top: -44%;
+    }
+
+   /*gallery-social*/
+.overlay-social{
+    height: 22%;
+}
+
+.card-columns{
+    padding: 7%;
+}
+
+   .card-sc-1{
+    height: 175px;
+    width: 31%;
+    border-radius: 9%;
+    margin-top: 6%;
+    margin-bottom: 15%;
+  }
+  
+  .card-sc-1 img{
+    height: 174px;
+    border-radius: 9%;
+  }
+
+  .card-sc-2{
+    height: 173px;
+    width: 30%;
+    margin-left: 37%;
+    border-radius: 9%;
+    margin-top: -59%;
+  }
+  
+  .card-sc-2 img{
+    height: 174px;
+    border-radius: 9%;
+  }
+
+  .card-sc-3{
+    height: 173px;
+    border-radius: 9%;
+    width: 29%;
+    margin-left: 73%;
+    margin-top: -45%;
+  }
+  .card-sc-3 img{
+    height: 174px;
+    border-radius: 9%;
+  }
+}

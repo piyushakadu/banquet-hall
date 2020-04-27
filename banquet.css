@@ -3,6 +3,18 @@
     transition: all 0.4s;
 }
 
+.home-text{
+  color: white; 
+  font-family: Montserrat; 
+  font-size: 60px;
+}
+
+.lead-para{
+  color: white; 
+  font-family: Montserrat; 
+  font-size: 32px;
+}
+
 
 /* Change navbar styling on scroll */
 .navbar.active {
@@ -59,7 +71,7 @@
 .button {
     display: inline-block;
     border-radius: 8px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
     background-color: rgb(133, 30, 30,0.3);
     color: #FFFFFF;
     text-align: center;
@@ -99,7 +111,7 @@
 
 /*About us*/
   .btn{
-    border: 3px solid black;
+    
     font-size: 20px;
     padding: 4px;
     width: 150px;
@@ -120,9 +132,53 @@ position: relative; /* allows repositioning */
     border: 1px solid gray;
 }
 
-/*card*/
-.card {
+/*cards on about us*/
+.card-social {
     box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+    width: 28%;
+  }
+
+  .card-wedding {
+    box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+    width: 28%;
+  }
+
+  .card-corporate {
+    box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+    width: 28%;
+  }
+
+  .card-social p{
+    background-color: rgb(0, 0, 0,0.7);
+    color: white;
+    font-size: 9px;
+    margin-top: 590px;
+    border-radius: 2px 2px 21px 21px;
+    margin-right: 446px;
+    padding: 6px;
+    margin-left: 6px;
+  }
+
+  .card-wedding p{
+    background-color: rgb(0, 0, 0,0.7);
+    color: white;
+    font-size: 8px;
+    margin-top: 590px;
+    border-radius: 2px 2px 21px 21px;
+    padding: 6px;
+    margin-left: 174px;
+    margin-right: 46%;
+  }
+
+  .card-corporate p{
+    background-color: rgb(0, 0, 0,0.7);
+    color: white;
+    font-size: 9px;
+    margin-top: 589px;
+    border-radius: 2px 2px 21px 21px;
+    padding: 6px;
+    margin-left: 345px;
+    margin-right: 18%;
   }
 
 .left-content{
@@ -132,9 +188,9 @@ position: relative; /* allows repositioning */
 }
 
 .button1{
-    border: 3px solid white;
+    border: 1px solid white;
     font-size: 15px;
-    padding: 3px;
+    padding: 7px;
     width: 120px;
     border-radius: 0px;
 }
@@ -153,6 +209,64 @@ position: relative; /* allows repositioning */
 }
 
 /*Events*/
+/*cards gallery*/
+
+.card-sc-1{
+  height: 175px; 
+  width: 85%;
+  border-radius: 9%;
+}
+
+.card-sc-1 img{
+  height: 174px;
+  border-radius: 9%;
+}
+
+.card-sc-2{
+  height: 175px; 
+  width: 79%; 
+  margin-left: 0%;
+  border-radius: 9%;
+}
+
+.card-sc-2 img{
+  height: 174px;border-radius: 9%;
+}
+
+.card-sc-3{
+  height: 175px; width: 78%; margin-left: -10%;border-radius: 9%;
+}
+.card-sc-3 img{
+  height: 174px;border-radius: 9%;
+}
+
+.card-sc-4{
+  height: 180px; width: 80%;border-radius: 9%;
+}
+.card-sc-4 img{
+  height: 179px;border-radius: 9%;
+}
+
+.card-sc-5{
+  width: 172%;border-radius: 6%;
+}
+.card-sc-5 img{
+  border-radius: 6%;
+}
+
+.card-sc-6{
+  height: 195px; 
+  width: 81%; 
+  margin-left: -371px; 
+  margin-top: 200px;
+  border-radius: 9%;
+}
+
+.card-sc-6 img{
+  height: 195px;border-radius: 9%
+}
+
+
 * {
     box-sizing: border-box;
   }
@@ -207,35 +321,36 @@ body{
 }
 
 /*go to top*/
-#myBtn {
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 5px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #032733d5;/* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 4px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-    width: 85px;
-  }
-  
-  #myBtn:hover {
-    background-color: #110f1ff3; /* Add a dark-grey background on hover */
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 9px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-image: url(./Images/top.png);
+  cursor: pointer;
+  padding: 23px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: 48px 47px;
   }
 
-  /*scroll*/
-  .dummy-section{
-    background:#000;
-    width:100%;
-    height:100vh;
+  /*scroll bar*/
+
+  .timeline-social{
+    background:rgb(43, 42, 42);
+    height: 534px;
+    width: 4px;
+    border-radius: 5px;
+    margin: 20px 0 0 50px;
+    display: block;
+    float: left;
     position: absolute;
+    margin-top: -44%;
   }
-  
-  .timeline{
+
+  .timeline-wedding{
     background:rgb(43, 42, 42);
     height: 534px;
     width: 4px;
@@ -247,6 +362,18 @@ body{
     margin-top: -44%;
   }
   
+  .timeline-corporate{
+    background:rgb(43, 42, 42);
+    height: 534px;
+    width: 4px;
+    border-radius: 5px;
+    margin: 20px 0 0 50px;
+    display: block;
+    float: left;
+    position: absolute;
+    margin-top: -44%;
+  }
+
   .point{
     background:rgb(36, 35, 35);
     width:20px;
@@ -278,3 +405,12 @@ body{
 
   .point.active
   {background:white}
+
+ /*map*/
+  /* Set the size of the div element that contains the map */
+  #map {
+    height: 202px;
+    width: 99%;
+    margin-left: -10%;
+    margin-top: -14%;
+}
