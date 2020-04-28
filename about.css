@@ -25,6 +25,7 @@ position: relative; /* allows repositioning */
 /*card*/
 .card {
     box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+    width: 22%;
   }
 
 .left-content{

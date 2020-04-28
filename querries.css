@@ -74,61 +74,83 @@
 
     /*scroll*/
     .timeline-social{
-        background:rgb(43, 42, 42);
-        height: 70px;
+        background: rgb(43, 42, 42);
+        height: 348px;
         width: 4px;
         border-radius: 5px;
-        margin: 20px 0 0 50px;
+        margin: 21px 0 0 418px;
         display: block;
         float: left;
         position: absolute;
-        margin-top: -44%;
+        margin-top: -142%;
     }
 
-   /*gallery-social*/
-.overlay-social{
-    height: 22%;
-}
+    .card-sc-1{
+        width: 68%;
+        margin-bottom: 22%;
+        margin-top: 5%;
+        margin-left: 15%;
+    }
 
-.card-columns{
-    padding: 7%;
-}
+    .card-sc-1 img {
+        height: 222px;
+        border-radius: 9%;
+    }
 
-   .card-sc-1{
-    height: 175px;
-    width: 31%;
-    border-radius: 9%;
-    margin-top: 6%;
-    margin-bottom: 15%;
-  }
-  
-  .card-sc-1 img{
-    height: 174px;
-    border-radius: 9%;
-  }
+    /*wedding*/
+    .card-wed-1{
+        width: 68%;
+        margin-bottom: 22%;
+        margin-top: 5%;
+        margin-left: 15%;
+    }
 
-  .card-sc-2{
-    height: 173px;
-    width: 30%;
-    margin-left: 37%;
-    border-radius: 9%;
-    margin-top: -59%;
-  }
-  
-  .card-sc-2 img{
-    height: 174px;
-    border-radius: 9%;
-  }
+    .card-wed-1 img {
+        height: 222px;
+        border-radius: 9%;
+    }
 
-  .card-sc-3{
-    height: 173px;
-    border-radius: 9%;
-    width: 29%;
-    margin-left: 73%;
-    margin-top: -45%;
-  }
-  .card-sc-3 img{
-    height: 174px;
-    border-radius: 9%;
-  }
+    .timeline-wedding{
+        background: rgb(43, 42, 42);
+    height: 348px;
+    width: 4px;
+    border-radius: 5px;
+    margin: 21px 0 0 418px;
+    display: block;
+    float: left;
+    position: absolute;
+    margin-top: -142%;
+    }
+
+     /*corporate*/
+     .card-cor-1{
+        width: 68%;
+        margin-bottom: 22%;
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+
+    .card-cor-1 img {
+        height: 222px;
+        border-radius: 9%;
+    }
+
+    .timeline-corporate{
+        background: rgb(43, 42, 42);
+        height: 314px;
+        width: 4px;
+        border-radius: 5px;
+        margin: 21px 0 0 441px;
+        display: block;
+        float: left;
+        position: absolute;
+        margin-top: -132%;
+    }
+
+    /*button top*/
+    #back-to-top{
+        right: 8px;
+        padding: 18px;
+        border-radius: 8px
+    }
 }

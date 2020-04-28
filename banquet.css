@@ -209,7 +209,7 @@ position: relative; /* allows repositioning */
 }
 
 /*Events*/
-/*cards gallery*/
+/*cards gallery social*/
 
 .card-sc-1{
   height: 175px; 
@@ -266,6 +266,37 @@ position: relative; /* allows repositioning */
   height: 195px;border-radius: 9%
 }
 
+/*cards gallery wedding*/
+.card-wed-1{
+  height: 175px; width: 85%;border-radius: 9%;
+}
+
+.card-wed-1 img{
+  height: 174px;border-radius: 9%;
+}
+
+.card-wed-2{
+  height: 175px; width: 79%; margin-left: 0%;border-radius: 9%;
+}
+.card-wed-2 img{
+  height: 174px;border-radius: 9%;
+}
+
+.card-wed-3{
+  height: 175px; width: 78%; margin-left: -10%;border-radius: 9%;
+}
+.card-wed-3 img{
+  height: 174px;border-radius: 9%;
+}
+
+/*cards gallery corporate*/
+.card-cor-1{
+  height: 175px; width: 85%; border-radius: 9%;
+}
+
+.card-cor-1 img{
+  height: 174px;border-radius: 9%;
+}
 
 * {
     box-sizing: border-box;
