@@ -159,6 +159,14 @@
     }
 
     .footer-container{
-        margin-bottom: 22%;
+
+    }
+
+    .only-form{
+        margin-bottom: 31%;
+    }
+
+    .btn {
+        margin-right: 11%;
     }
 }
