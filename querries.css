@@ -1,16 +1,456 @@
 /*small tablet to big tablets: 768 to 1023*/
 @media only screen and (max-width: 1023px){
+ /*home page*/
+ .home-text{
+    color: white;
+    font-family: Montserrat;
+    font-size: 52px;
+    margin-top: -1%;
+  }
 
+  .lead-para{
+    color: white;
+    font-family: Montserrat;
+    font-size: 26px;
+  }
+
+  .button-sm{
+    width: 96%;
+    margin-bottom: 52%;
+}
+
+  /*social*/
+    /*scroll*/
+    .timeline-social{
+        background: rgb(43, 42, 42);
+        height: 549px;
+        width: 4px;
+        border-radius: 5px;
+        margin: 21px 0 0 13px;
+        display: block;
+        float: left;
+        position: absolute;
+        margin-top: -58%;
+    }
+
+    .card-sc-1{
+        height: 175px;
+        width: 98%;
+        border-radius: 9%;
+    }
+
+    .card-sc-1 img {
+        height: 181px;
+        border-radius: 9%;
+    }
+
+    .card-sc-2{
+        height: 177px;
+        width: 95%;
+        margin-left: 4%;
+        border-radius: 9%;
+    }
+
+    .card-sc-2 img {
+        height: 180px;
+        border-radius: 9%;
+    }
+
+    .card-sc-3{
+        height: 175px;
+        width: 93%;
+        margin-left: 2%;
+        border-radius: 9%;
+    }
+
+    .card-sc-3 img {
+        height: 174px;
+    border-radius: 9%;
+    }
+
+    .card-sc-4 {
+        height: 180px;
+        width: 80%;
+        border-radius: 9%;
+    }
+
+    .card-sc-4 img {
+        height: 179px;
+        border-radius: 9%;
+    }
+
+    .card-sc-5 {
+        width: 201%;
+        border-radius: 6%;
+    }
+
+    .card-sc-5 img {
+        border-radius: 6%;
+    }
+
+    .card-sc-6 {
+        height: 195px;
+        width: 81%;
+        margin-left: -371px;
+        margin-top: 200px;
+        border-radius: 9%;
+    }
+
+    /*wedding*/
+    .timeline-wedding{
+        background: rgb(43, 42, 42);
+        height: 549px;
+        width: 4px;
+        border-radius: 5px;
+        margin: 21px 0 0 13px;
+        display: block;
+        float: left;
+        position: absolute;
+        margin-top: -58%;
+    }
+
+    .card-wed-1{
+        height: 175px;
+        width: 98%;
+        border-radius: 9%;
+    }
+
+    .card-wed-1 img {
+        height: 181px;
+        border-radius: 9%;
+    }
+
+    .card-wed-2{
+        height: 177px;
+        width: 95%;
+        margin-left: 4%;
+        border-radius: 9%;
+    }
+
+    .card-wed-2 img {
+        height: 180px;
+        border-radius: 9%;
+    }
+
+    .card-wed-3{
+        height: 175px;
+        width: 93%;
+        margin-left: 2%;
+        border-radius: 9%;
+    }
+
+    .card-wed-3 img {
+        height: 174px;
+    border-radius: 9%;
+    }
+
+    .card-wed-4 {
+        height: 180px;
+        width: 80%;
+        border-radius: 9%;
+    }
+
+    .card-wed-4 img {
+        height: 179px;
+        border-radius: 9%;
+    }
+
+    .card-wed-5 {
+        width: 201%;
+        border-radius: 6%;
+    }
+
+    .card-wed-5 img {
+        border-radius: 6%;
+    }
+
+    .card-wed-6 {
+        height: 195px;
+        width: 81%;
+        margin-left: -371px;
+        margin-top: 200px;
+        border-radius: 9%;
+    }
+
+    /*corporate*/
+    .timeline-corporate{
+        background: rgb(43, 42, 42);
+        height: 549px;
+        width: 4px;
+        border-radius: 5px;
+        margin: 21px 0 0 13px;
+        display: block;
+        float: left;
+        position: absolute;
+        margin-top: -58%;
+    }
+
+    .card-cor-1{
+        height: 175px;
+        width: 98%;
+        border-radius: 9%;
+    }
+
+    .card-cor-1 img {
+        height: 181px;
+        border-radius: 9%;
+    }
+
+    .card-cor-2{
+        height: 177px;
+        width: 95%;
+        margin-left: 4%;
+        border-radius: 9%;
+    }
+
+    .card-cor-2 img {
+        height: 180px;
+        border-radius: 9%;
+    }
+
+    .card-cor-3{
+        height: 175px;
+        width: 93%;
+        margin-left: 2%;
+        border-radius: 9%;
+    }
+
+    .card-cor-3 img {
+        height: 174px;
+    border-radius: 9%;
+    }
+
+    .card-cor-4 {
+        height: 180px;
+        width: 80%;
+        border-radius: 9%;
+    }
+
+    .card-cor-4 img {
+        height: 179px;
+        border-radius: 9%;
+    }
+
+    .card-cor-5 {
+        width: 201%;
+        border-radius: 6%;
+    }
+
+    .card-cor-5 img {
+        border-radius: 6%;
+    }
+
+    .card-cor-6 {
+        height: 195px;
+        width: 81%;
+        margin-left: -371px;
+        margin-top: 200px;
+        border-radius: 9%;
+    }
 }
 
 
-/*small phones to small tablets: 481 to 767*/
+/*small phones to small tablets: 501 to 767*/
 @media only screen and (max-width: 767px){
+    /*home page*/
+    .home-text{
+        color: white;
+    font-family: Montserrat;
+    font-size: 48px;
+    margin-top: 9%;
+      }
 
-}
+      .lead-para{
+        color: white; 
+        font-family: Montserrat; 
+        font-size: 22px;
+      }
+
+      .button-sm{
+        width: 96%;
+        margin-bottom: 28%;
+    }
+
+    /*about us*/
+    
+    /*social*/
+    /*scroll*/
+    .timeline-social{
+        background: rgb(43, 42, 42);
+    height: 498px;
+    width: 4px;
+    border-radius: 5px;
+    margin: 21px 0 0 49px;
+    display: block;
+    float: left;
+    position: absolute;
+    margin-top: -80%;
+    }
+
+    .card-sc-1{
+        width: 95%;
+        margin-bottom: 15%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .card-sc-1 img {
+        height: 182px;
+    border-radius: 9%;
+    }
+
+    .card-sc-2{
+        width: 97%;
+        margin-bottom: 22%;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+
+    .card-sc-2 img {
+        height: 188px;
+        border-radius: 9%;
+    }
+
+    .card-sc-3{
+        width: 94%;
+        margin-bottom: 19%;
+        margin-top: 7%;
+        margin-left: 7%;
+    }
+
+    .card-sc-3 img {
+        height: 188px;
+        border-radius: 9%
+    }
 
 
-/*small phones from 0 to 480px*/
+    /*wedding*/
+    .timeline-wedding{
+        background: rgb(43, 42, 42);
+    height: 498px;
+    width: 4px;
+    border-radius: 5px;
+    margin: 21px 0 0 49px;
+    display: block;
+    float: left;
+    position: absolute;
+    margin-top: -80%;
+    }
+
+    .card-wed-1{
+        width: 95%;
+        margin-bottom: 15%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .card-wed-1 img {
+        height: 185px;
+    border-radius: 9%;
+    }
+
+    .card-wed-2{
+        width: 97%;
+        margin-bottom: 22%;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+
+    .card-wed-2 img {
+        height: 188px;
+        border-radius: 9%;
+    }
+
+    .card-wed-3{
+        width: 94%;
+        margin-bottom: 19%;
+        margin-top: 7%;
+        margin-left: 7%;
+    }
+
+    .card-wed-3 img {
+        height: 188px;
+        border-radius: 9%
+    }
+
+    /*corporate*/
+    .timeline-corporate{
+        background: rgb(43, 42, 42);
+    height: 498px;
+    width: 4px;
+    border-radius: 5px;
+    margin: 21px 0 0 49px;
+    display: block;
+    float: left;
+    position: absolute;
+    margin-top: -80%;
+    }
+
+    .card-cor-1{
+        width: 93%;
+        margin-bottom: 15%;
+        margin-top: -1%;
+        margin-left: 4%;
+    }
+
+    .card-cor-1 img {
+        height: 182px;
+        border-radius: 9%;
+    }
+
+    .card-cor-2{
+        width: 96%;
+    margin-bottom: 22%;
+    margin-top: -128%;
+    margin-left: 228%;
+    }
+
+    .card-cor-2 img {
+        height: 184px;
+        border-radius: 9%;
+    }
+
+    .card-cor-3{
+        width: 94%;
+        margin-bottom: 19%;
+        margin-top: -5%;
+        margin-left: 3%;
+    }
+
+    .card-cor-3 img {
+        height: 180px;
+        border-radius: 9%;
+    }
+
+    /*contact*/
+    .only-form{
+        margin-bottom: 11%;
+    }
+
+    .btn {
+        margin-right: 13%;
+        margin-top: 5%
+    }
+
+    .form-row{
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 3%;
+    }
+
+    .comment{
+        margin-left: 7%;
+        margin-top: 0%;
+        width: 86%;
+    }
+
+    .footer-container{
+        margin-top: 22%;
+    }
+  }
+
+
+/*small phones from 0 to 500px*/
 @media only screen and (max-width: 500px){
 
     /*home page*/
@@ -154,19 +594,31 @@
         border-radius: 8px
     }
 
-    .overlay{
-        width: 94%;
-    }
+    /*contact us*/
+    
 
     .footer-container{
 
     }
 
     .only-form{
-        margin-bottom: 31%;
+        margin-bottom: 26%;
     }
 
     .btn {
-        margin-right: 11%;
+        margin-right: 13%;
+        margin-top: 18%
+    }
+
+    .form-row{
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 9%;
+    }
+
+    .comment{
+        margin-left: 7%;
+        margin-top: 0%;
+        width: 86%;
     }
 }
