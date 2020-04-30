@@ -81,6 +81,7 @@
     transition: all 0.5s;
     cursor: pointer;
     margin: 3px;
+    margin-bottom: 29%
   }
   
   .button span {
@@ -119,72 +120,108 @@
 }
 
 .round{
-width: 80%;
-height: 130%;
-display: flex;
-color: #fff;
-align-items: center;
-text-align: center;
-position: relative; /* allows repositioning */
+  width: 93%;
+  height: 131%;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  position: relative; /* allows repositioning */
 }
 
 .line{
     border: 1px solid gray;
 }
 
+.over{
+  height:83%; width: 108%;
+}
+
+.about-us{
+  margin-bottom: 4%;
+}
+
+
 /*cards on about us*/
-.card-social {
-    box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
-    width: 28%;
-  }
+ /*about us content*/
+    
+ .card-social {
+  box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+  float: left;
+ height: 113%;
+}
 
-  .card-wedding {
-    box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
-    width: 28%;
-  }
+.card-social img{
+ height: 101%;
+}
 
-  .card-corporate {
-    box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
-    width: 28%;
-  }
+.card-wedding {
+      box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+      float: left;
+      margin-left: 6%;
+     height: 113%;
+}
+
+.card-wedding img{
+ height: 101%;
+}
+
+.card-corporate {
+  box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+  float: left;
+  margin-left: 6%;
+ height: 113%;
+}
+
+.card-corporate img{
+height: 101%;
+}
 
   .card-social p{
     background-color: rgb(0, 0, 0,0.7);
     color: white;
-    font-size: 9px;
-    margin-top: 590px;
-    border-radius: 2px 2px 21px 21px;
-    margin-right: 446px;
+    font-size: 11px;
+    margin-top: 135px;
+    border-radius: 2px 1px 21px 21px;
     padding: 6px;
-    margin-left: 6px;
+    margin-left: -19px;
+    margin-right: -20px;
   }
 
   .card-wedding p{
     background-color: rgb(0, 0, 0,0.7);
     color: white;
-    font-size: 8px;
-    margin-top: 590px;
-    border-radius: 2px 2px 21px 21px;
+    font-size: 11px;
+    margin-top: 134px;
+    border-radius: 2px 1px 21px 21px;
     padding: 6px;
-    margin-left: 174px;
-    margin-right: 46%;
+    margin-left: -19px;
+    margin-right: -20px;
+  
   }
 
   .card-corporate p{
     background-color: rgb(0, 0, 0,0.7);
     color: white;
-    font-size: 9px;
-    margin-top: 589px;
-    border-radius: 2px 2px 21px 21px;
+    font-size: 11px;
+    margin-top: 134px;
+    border-radius: 2px 1px 21px 21px;
     padding: 6px;
-    margin-left: 345px;
-    margin-right: 18%;
+    margin-left: -20px;
+    margin-right: -21px;
+    
+  }
+
+  .word{
+    margin-left: 11%;
   }
 
 .left-content{
-    position: absolute;
-    margin-top: -120px;
-    margin-left: 154px;
+  position: absolute;
+  margin-top: -138px;
+  margin-left: 230px;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 104%;
 }
 
 .button1{
@@ -193,6 +230,7 @@ position: relative; /* allows repositioning */
     padding: 7px;
     width: 120px;
     border-radius: 0px;
+    margin-left: 19%;
 }
 
 
@@ -248,7 +286,8 @@ position: relative; /* allows repositioning */
 }
 
 .card-sc-5{
-  width: 172%;border-radius: 6%;
+  width: 177%;
+  border-radius: 6%;
 }
 .card-sc-5 img{
   border-radius: 6%;
@@ -267,17 +306,25 @@ position: relative; /* allows repositioning */
 }
 
 /*cards gallery wedding*/
+
 .card-wed-1{
-  height: 175px; width: 85%;border-radius: 9%;
+  height: 175px; 
+  width: 85%;
+  border-radius: 9%;
 }
 
 .card-wed-1 img{
-  height: 174px;border-radius: 9%;
+  height: 174px;
+  border-radius: 9%;
 }
 
 .card-wed-2{
-  height: 175px; width: 79%; margin-left: 0%;border-radius: 9%;
+  height: 175px; 
+  width: 79%; 
+  margin-left: 0%;
+  border-radius: 9%;
 }
+
 .card-wed-2 img{
   height: 174px;border-radius: 9%;
 }
@@ -289,14 +336,91 @@ position: relative; /* allows repositioning */
   height: 174px;border-radius: 9%;
 }
 
+.card-wed-4{
+  height: 180px; width: 80%;border-radius: 9%;
+}
+.card-wed-4 img{
+  height: 179px;border-radius: 9%;
+}
+
+.card-wed-5{
+  width: 177%;
+  border-radius: 6%;
+}
+.card-wed-5 img{
+  border-radius: 6%;
+}
+
+.card-wed-6{
+  height: 195px; 
+  width: 81%; 
+  margin-left: -371px; 
+  margin-top: 200px;
+  border-radius: 9%;
+}
+
+.card-wed-6 img{
+  height: 195px;border-radius: 9%
+}
+
 /*cards gallery corporate*/
+
 .card-cor-1{
-  height: 175px; width: 85%; border-radius: 9%;
+  height: 175px; 
+  width: 85%;
+  border-radius: 9%;
 }
 
 .card-cor-1 img{
+  height: 174px;
+  border-radius: 9%;
+}
+
+.card-cor-2{
+  height: 175px; 
+  width: 79%; 
+  margin-left: 0%;
+  border-radius: 9%;
+}
+
+.card-cor-2 img{
   height: 174px;border-radius: 9%;
 }
+
+.card-cor-3{
+  height: 175px; width: 78%; margin-left: -10%;border-radius: 9%;
+}
+.card-cor-3 img{
+  height: 174px;border-radius: 9%;
+}
+
+.card-cor-4{
+  height: 180px; width: 80%;border-radius: 9%;
+}
+.card-cor-4 img{
+  height: 179px;border-radius: 9%;
+}
+
+.card-cor-5{
+  width: 177%;
+  border-radius: 6%;
+}
+.card-cor-5 img{
+  border-radius: 6%;
+}
+
+.card-cor-6{
+  height: 195px; 
+  width: 81%; 
+  margin-left: -371px; 
+  margin-top: 200px;
+  border-radius: 9%;
+}
+
+.card-cor-6 img{
+  height: 195px;border-radius: 9%
+}
+
 
 * {
     box-sizing: border-box;
@@ -342,6 +466,11 @@ position: relative; /* allows repositioning */
     background-size: cover;
     
 }
+.submit{
+  margin-top: 3%;
+  margin-left: 41%;
+}
+
 
 .overlay{
     background-color: rgba(0, 0, 0, 0.55);

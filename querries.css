@@ -1,6 +1,6 @@
-/*small tablet to big tablets: 768 to 1023*/
-@media only screen and (max-width: 1023px){
- /*home page*/
+/*small tablet to big tablets: 993 to 1200
+@media only screen and (max-width: 1200px){
+ home page
  .home-text{
     color: white;
     font-family: Montserrat;
@@ -19,8 +19,8 @@
     margin-bottom: 52%;
 }
 
-  /*social*/
-    /*scroll*/
+  social
+    scroll
     .timeline-social{
         background: rgb(43, 42, 42);
         height: 549px;
@@ -96,7 +96,7 @@
         border-radius: 9%;
     }
 
-    /*wedding*/
+    wedding
     .timeline-wedding{
         background: rgb(43, 42, 42);
         height: 549px;
@@ -172,7 +172,7 @@
         border-radius: 9%;
     }
 
-    /*corporate*/
+    corporate
     .timeline-corporate{
         background: rgb(43, 42, 42);
         height: 549px;
@@ -247,44 +247,144 @@
         margin-top: 200px;
         border-radius: 9%;
     }
+}*/
+
+
+/*small phones to small tablets: 769 to 992*/
+@media only screen and (max-width: 992px){
+ /*home page*/
+ .home-text{
+    color: white;
+font-family: Montserrat;
+font-size: 48px;
+margin-top: 5%;
 }
 
+  .lead-para{
+    color: white; 
+    font-family: Montserrat; 
+    font-size: 22px;
+}
 
-/*small phones to small tablets: 501 to 767*/
-@media only screen and (max-width: 767px){
+  .button-sm{
+    width: 96%;
+    margin-bottom: 37%;
+}
+}    
+
+/*small phones to small tablets: 481 to 768*/
+@media only screen and (max-width: 768px){
     /*home page*/
     .home-text{
         color: white;
     font-family: Montserrat;
     font-size: 48px;
-    margin-top: 9%;
-      }
+    margin-top: 3%;
+    }
 
       .lead-para{
         color: white; 
         font-family: Montserrat; 
         font-size: 22px;
-      }
+    }
 
       .button-sm{
         width: 96%;
-        margin-bottom: 28%;
+        margin-bottom: 36%;
     }
 
     /*about us*/
+    .about-us{
+        margin-bottom: 7%;
+      }
+
+    /*about us content*/
+    
+    .card-social {
+        box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+        float: left;
+       height: 113%;
+    }
+
+    .card-social img{
+       height: 65%;
+    }
+
+    .card-wedding {
+            box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+            float: left;
+            margin-left: 6%;
+           height: 113%;
+      }
+
+      .card-wedding img{
+       height: 65%;
+    }
+
+      .card-corporate {
+        box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+        float: left;
+        margin-left: 6%;
+       height: 113%;
+  }
+
+  .card-corporate img{
+   height: 65%;
+}
+
+  .card-social p{
+    background-color: rgb(0, 0, 0,0.7);
+    color: white;
+    font-size: 13px;
+    margin-top: 130px;
+    border-radius: 2px 1px 21px 21px;
+    padding: 6px;
+    margin-left: -19px;
+    margin-right: -20px;
+  }
+
+  .card-wedding p{
+    background-color: rgb(0, 0, 0,0.7);
+    color: white;
+    font-size: 13px;
+    margin-top: 130px;
+    border-radius: 2px 1px 21px 21px;
+    padding: 6px;
+    margin-left: -19px;
+    margin-right: -20px;
+  
+  }
+
+  .card-corporate p{
+    background-color: rgb(0, 0, 0,0.7);
+    color: white;
+    font-size: 13px;
+    margin-top: 130px;
+    border-radius: 2px 1px 21px 21px;
+    padding: 6px;
+    margin-left: -19px;
+    margin-right: -20px;
+    
+  }
+
+  .word{
+    margin-left: 17%;
+  }
+
+
     
     /*social*/
     /*scroll*/
     .timeline-social{
         background: rgb(43, 42, 42);
-    height: 498px;
-    width: 4px;
-    border-radius: 5px;
-    margin: 21px 0 0 49px;
-    display: block;
-    float: left;
-    position: absolute;
-    margin-top: -80%;
+        height: 360px;
+        width: 4px;
+        border-radius: 5px;
+        margin: 21px 0 0 664px;
+        display: block;
+        float: left;
+        position: absolute;
+        margin-top: -85%;
     }
 
     .card-sc-1{
@@ -327,14 +427,14 @@
     /*wedding*/
     .timeline-wedding{
         background: rgb(43, 42, 42);
-    height: 498px;
-    width: 4px;
-    border-radius: 5px;
-    margin: 21px 0 0 49px;
-    display: block;
-    float: left;
-    position: absolute;
-    margin-top: -80%;
+        height: 360px;
+        width: 4px;
+        border-radius: 5px;
+        margin: 21px 0 0 664px;
+        display: block;
+        float: left;
+        position: absolute;
+        margin-top: -84%;
     }
 
     .card-wed-1{
@@ -376,14 +476,14 @@
     /*corporate*/
     .timeline-corporate{
         background: rgb(43, 42, 42);
-    height: 498px;
-    width: 4px;
-    border-radius: 5px;
-    margin: 21px 0 0 49px;
-    display: block;
-    float: left;
-    position: absolute;
-    margin-top: -80%;
+        height: 360px;
+        width: 4px;
+        border-radius: 5px;
+        margin: 21px 0 0 664px;
+        display: block;
+        float: left;
+        position: absolute;
+        margin-top: -84%;
     }
 
     .card-cor-1{
@@ -401,7 +501,7 @@
     .card-cor-2{
         width: 96%;
     margin-bottom: 22%;
-    margin-top: -128%;
+    margin-top: -96%;
     margin-left: 228%;
     }
 
@@ -414,7 +514,7 @@
         width: 94%;
         margin-bottom: 19%;
         margin-top: -5%;
-        margin-left: 3%;
+        margin-left: 7%;
     }
 
     .card-cor-3 img {
@@ -424,12 +524,13 @@
 
     /*contact*/
     .only-form{
-        margin-bottom: 11%;
+        margin-bottom: 7%;
     }
 
-    .btn {
+    .submit {
         margin-right: 13%;
-        margin-top: 5%
+        margin-top: 5%;
+        margin-left: 41%;
     }
 
     .form-row{
@@ -446,6 +547,54 @@
 
     .footer-container{
         margin-top: 22%;
+    }
+
+    .contact-us{
+        margin-left: 3%;
+        margin-top: 4%;
+    }
+
+    .map{
+        margin-top: -4%;
+        margin-left: 51%;
+    }
+
+    .paragraph{
+        margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 41%;
+    }
+
+    .con-add{
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+
+    .add2{
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    #map{
+        margin-top: -17%;
+        margin-left: -14%;
+    }
+
+    .phn{
+        margin-left: 1%;
+    margin-top: 2%;
+    }
+
+    .email{
+        margin-left: 1%;
+    }
+
+    /*button top*/
+    #back-to-top{
+        right: 4px;
+        padding: 18px;
+        border-radius: 8px;
+        background-size: 38px 37px;
     }
   }
 
@@ -473,40 +622,81 @@
       }
 
     /*about us page*/
+    .about-us{
+        margin-bottom: 7%;
+      }
 
     /*about us content*/
     
-
-
     .card-social {
         box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
         float: left;
+        height: 105%;
+    }
+
+    .card-social img{
+        height:106%;
     }
 
     .card-wedding {
             box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
             float: left;
+            margin-left: 6%;
+            height: 105%;
       }
+
+      .card-wedding img{
+        height:106%;
+    }
 
       .card-corporate {
         box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
         float: left;
+        margin-left: 6%;
+        height: 105%;
   }
 
-      .card-social p{
-        background-color: rgb(0, 0, 0,0.7);
-        color: white;
-        font-size: 9px;
-        margin-top: 590px;
-        border-radius: 2px 2px 21px 21px;
-        margin-right: 446px;
-        padding: 6px;
-        margin-left: 6px;
-      }  
+  .card-corporate img{
+    height:106%;
+}
+
+  .card-social p{
+    background-color: rgb(0, 0, 0,0.7);
+    color: white;
+    font-size: 9px;
+    margin-top: 122px;
+    border-radius: 2px 1px 21px 21px;
+    padding: 6px;
+    margin-left: -19px;
+    margin-right: -20px;
+  }
+
+  .card-wedding p{
+    background-color: rgb(0, 0, 0,0.7);
+    color: white;
+    font-size: 9px;
+    margin-top: 122px;
+    border-radius: 2px 1px 21px 21px;
+    padding: 6px;
+    margin-left: -19px;
+    margin-right: -20px;
+  
+  }
+
+  .card-corporate p{
+    background-color: rgb(0, 0, 0,0.7);
+    color: white;
+    font-size: 9px;
+    margin-top: 122px;
+    border-radius: 2px 1px 21px 21px;
+    padding: 6px;
+    margin-left: -24px;
+    margin-right: -21px;
+    
+  }
+
     
       /*event pages - social*/
-
-   
      .btn-social{
         width: 25%;
         padding: 5px;
@@ -527,8 +717,8 @@
 
     .card-sc-1{
         width: 68%;
-        margin-bottom: 22%;
-        margin-top: 5%;
+        margin-bottom: 18%;
+        margin-top: 7%;
         margin-left: 15%;
     }
 
@@ -540,7 +730,7 @@
     /*wedding*/
     .card-wed-1{
         width: 68%;
-        margin-bottom: 22%;
+        margin-bottom: 18%;
         margin-top: 5%;
         margin-left: 15%;
     }
@@ -565,7 +755,7 @@
      /*corporate*/
      .card-cor-1{
         width: 68%;
-        margin-bottom: 22%;
+        margin-bottom: 18%;
         margin-top: 5%;
         margin-left: 15%;
     }
@@ -597,17 +787,43 @@
     /*contact us*/
     
 
-    .footer-container{
+    .contact-us {
+        margin-left: 2%;
+    }
 
+    .paragraph {
+        margin-top: 1%;
+        
+        margin-right: 14%;
+    }
+
+    .add2 {
+        margin-top: -4%;
+        margin-left: 17%;
+    }
+
+    .phn {
+        margin-left: 0%;
+        margin-top: 3%;
+    }
+
+    .phn h6{
+        margin-top: -4%;
+        margin-left: 14%;
+    }
+
+    .email h6{
+        margin-top: -5%;
+        margin-left: 15%;
     }
 
     .only-form{
         margin-bottom: 26%;
     }
 
-    .btn {
-        margin-right: 13%;
-        margin-top: 18%
+    .submit {
+        margin-top: 9%;
+        margin-left: 32%;
     }
 
     .form-row{
