@@ -139,14 +139,31 @@
     background-image: url(./Images/birthday.jpg);
     background-position: center;
     background-size: cover;  
+ background-color: black;
 
 }
 
+/*content*/
+.social{
+    margin-left: 18%;
+    letter-spacing:3px;
+    font-size: 65px;
+    font-family: Montserrat;
+    color: white;
+}
+
+.social-para{
+    margin-left: 18%;
+    font-size: 12px;
+    font-family: Montserrat;
+    color: white;
+}
+
+/*gallery*/
 .overlay-social img{
     width: 88%;
     height: 87%;
 }
-
 
 .big{
     width: 88%;
@@ -157,24 +174,28 @@
     background-color:  rgba(0, 0, 0, 0.55);
   }
   
+
+  /*button*/
   .btn-social{
     border: 3px solid white;
     font-size: 15px;
     padding: 6px;
     width: 150px;
     border-radius: 0px;
+    margin-left: 18%;
   }
 
+  /*scrollbar*/
   .timeline-social{
-    background:rgb(43, 42, 42);
+    background: rgb(43, 42, 42);
     height: 534px;
     width: 4px;
     border-radius: 5px;
     margin: 20px 0 0 50px;
     display: block;
     float: left;
-    position: absolute;
-    margin-top: -44%;
+    position: relative;
+    margin-top: -51%;
   }
 
   
@@ -209,6 +230,69 @@
 
   .point.active
   {background:white}
+
+/*wedding*/
+.wedding-event-bg{
+    background-image: url(./Images/wedding.jpg);
+    background-position: center;
+    background-size: cover;  
+    background-color: black;
+
+}
+
+/*corporate*/
+.corporate-event-bg{
+  background-image: url(./Images/corporate.jpg);
+  background-position: center;
+  background-size: cover;  
+}
+
+.overlay{
+  background-color:  rgba(0, 0, 0, 0.55);
+}
+
+/*contact*/
+.contact-bg{
+  background-image: url(./Images/contact.jpg);
+  background-position: center;
+  background-size: cover;  
+}
+
+.footer{
+  color: white;
+  font-family: Montserrat;
+}
+
+.add{
+  margin-top: -7%;
+    margin-left: 22%;
+}
+
+.num{
+  margin-top: -7%;
+    margin-left: 22%;
+}
+
+.email{
+  margin-top: -7%;
+    margin-left: 22%;
+}
+
+.map-content{
+  color: white;
+  font-family: Montserrat;
+}
+
+.map{
+  background-image: url(./Images/map.png);
+  width: 91%;
+  height: 86%;
+}
+
+body{
+  overflow-x: hidden;
+}
+
 
 * {
     box-sizing: border-box;
