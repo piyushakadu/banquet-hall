@@ -71,14 +71,10 @@
                         </div>
                     </nav>
         
-                    <!-- For demo purpose -->
-                    
                         <div class="pt-5">
-                            
                                 <h1 class="home-text font-weight-bold text-center">We Will Take Care of<br>Every Detail</h1>
                                 <p class="lead-para font-weight-bold text-center">Lorem ipsum dolor sit amet,
                                     <br> consectetur adipiscing elit.</p>
-                           
                         </div>
                     
         
@@ -96,9 +92,8 @@
 
 
 <!--about us-->
-<div class="row">
+<div class="row" id="about">
 	<div class="col-6 aboutimg">
-	
     </div>
     
       <div class="col-6">
@@ -106,9 +101,9 @@
 	<div class="col-12">
         <div class="above-conent">
             <h1 class=" center font-weight-bold" id="about"
-                style="font-family: Montserrat; border: 2px ">ABOUT US</h1><br>
+                style="font-family: Montserrat; border: 2px; font-size: 67px; ">ABOUT US</h1><br>
             <h4 class="font-weight-bold"
-                style="font-family: Montserrat; border: 3px"><span
+                style="font-family: Montserrat; border: 3px; font-size: 27px;"><span
                     style="color: palevioletred;">Lorem ipsum</span> dolor sit amet,<br>consectetur adipiscing elit.
             </h4>
             <p class="para" style="font-family: Montserrat;font-size: smaller;">Lorem ipsum dolor sit amet,
@@ -177,7 +172,7 @@
 
 <!--social event-->
 
-<div class="row social-event-bg">
+<div class="row social-event-bg" id="social">
 	<div class="col-6">
         
         <h1 class="social mt-lg-4 mt-xl-4 font-weight-bold">SOCIAL<br><span class="mt-5"> EVENTS</span></h1>
@@ -217,7 +212,7 @@
     
     <!--gallery-->
     <div class="col-6">
-        <div class="overlay-social">
+        <div class="overlay-social mt-lg-4 mt-xl-4">
     <div class="row">
         <div class="col-4">
             <img src="./Images/A4 - 1.png">
@@ -252,10 +247,10 @@
 </div>
     
 </div>
-</div>
+
 
 <!--wedding-->
-<div class="row wedding-event-bg">
+<div class="row wedding-event-bg" id="wedding">
 	<div class="col-6">
         
         <h1 class="social mt-lg-4 mt-xl-4 font-weight-bold">WEDDING<br><span class="mt-5"> EVENTS</span></h1>
@@ -276,12 +271,12 @@
 
         <div class=" timeline-social d-none d-sm-block d-md-block">
 
-            <div class="point point-1 active" title="Social events">
+            <div class="point point-1 " title="Social events">
                 <a href="#social"></a>
             </div>
 
 
-            <div class="point point-2 " title="Wedding events">
+            <div class="point point-2 active" title="Wedding events">
                 <a href="#wedding"></a>
             </div>
 
@@ -295,7 +290,7 @@
     
     <!--gallery-->
     <div class="col-6">
-        <div class="overlay-social">
+        <div class="overlay-social mt-lg-4 mt-xl-4">
     <div class="row">
         <div class="col-4">
             <img src="./Images/A4 - 1.png">
@@ -330,10 +325,10 @@
 </div>
     
 </div>
-</div>
+
 
 <!--corporate-->
-<div class="row corporate-event-bg  overlay">
+<div class="row corporate-event-bg " id="corporate">
 	<div class="col-6 ">
         
         <h1 class="social mt-lg-4 mt-xl-4 font-weight-bold">WEDDING<br><span class="mt-5"> EVENTS</span></h1>
@@ -354,7 +349,7 @@
 
         <div class=" timeline-social d-none d-sm-block d-md-block">
 
-            <div class="point point-1 active" title="Social events">
+            <div class="point point-1 " title="Social events">
                 <a href="#social"></a>
             </div>
 
@@ -363,7 +358,7 @@
                 <a href="#wedding"></a>
             </div>
 
-            <div class="point point-3 " title="Corporate events">
+            <div class="point point-3 active" title="Corporate events">
                 <a href="#corporate"></a>
             </div>
 
@@ -373,7 +368,7 @@
     
     <!--gallery-->
     <div class="col-6">
-        <div class="overlay-social">
+        <div class="overlay-social mt-lg-4 mt-xl-4">
     <div class="row">
         <div class="col-4">
             <img src="./Images/A4 - 1.png">
@@ -408,12 +403,11 @@
 </div>
     
 </div>
-</div>
 
 <!--contact-->
 
-<div class="contact-bg">
-    <div class="addres-box overlay" style="width: 60%;margin-left: auto;margin-right: auto; ">
+<div class="contact-bg" >
+    <div class="addres-box overlay" id="contact" style="width: 60%;margin-left: auto;margin-right: auto; ">
         <div class="row">
             <div class="col-12">
 
@@ -483,6 +477,93 @@
     </div>
 </div>
 
+
+ <!--go to top button-->
+ <div class="button-top d-none d-sm-block d-md-block">
+    <a id="back-to-top" href="#" role="button" title="Go to top"></a>
+</div>
+
+<script>
+    //Get the button
+
+
+    /* var mybutton = document.getElementById("myBtn");
+     
+     // When the user scrolls down 20px from the top of the document, show the button
+     window.onscroll = function() {scrollFunction()};
+     
+     function scrollFunction() {
+       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+         mybutton.style.display = "block";
+       } else {
+         mybutton.style.display = "none";
+       }
+     }
+     
+     // When the user clicks on the button, scroll to the top of the document
+     function topFunction() {
+       document.body.scrollTop = 0;
+       document.documentElement.scrollTop = 0;
+     }*/
+
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 400);
+            return false;
+        });
+    });
+
+
+
+    //transition
+    $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on('click', function (event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+
+
+    /* //map
+// Initialize and add the map
+function initMap() {
+// The location of Uluru
+var uluru = {lat: -25.344, lng: 131.036};
+// The map, centered at Uluru
+var map = new google.maps.Map(
+  document.getElementById('map'), {zoom: 4, center: uluru});
+// The marker, positioned at Uluru
+var marker = new google.maps.Marker({position: uluru, map: map});
+}*/
+</script>
 
 </body>
 </html>

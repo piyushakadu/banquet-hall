@@ -58,10 +58,6 @@
     background-size: cover;  
   }
 
-  .overlay{
-    background-color: rgba(0, 0, 0, 0.55);
-  }
-
   .nav-item{
       color:white;
   }
@@ -118,19 +114,27 @@
   /*card*/
      
  .card-social {
-    box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
-    
-  
+  box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5);
+  width: 78%;
+  border-radius: 22%; /* this adds the "card" effect */
   }
 
+.card-img{
+  border-radius: 22%;
+}
+
   .card-wedding {
-    box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+    box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5);
+    width: 78%;
+    border-radius: 22%;
    
 }
 
 
 .card-corporate {
-    box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5); /* this adds the "card" effect */
+  box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5);
+  width: 78%;
+  border-radius: 22%;
   }
 
 
@@ -182,7 +186,7 @@
     padding: 6px;
     width: 150px;
     border-radius: 0px;
-    margin-left: 18%;
+    margin-left: 10%;
   }
 
   /*scrollbar*/
@@ -195,9 +199,32 @@
     display: block;
     float: left;
     position: relative;
-    margin-top: -51%;
+    margin-top: -44%;
   }
 
+  .timeline-wedding{
+    background:rgb(43, 42, 42);
+    height: 534px;
+    width: 4px;
+    border-radius: 5px;
+    margin: 20px 0 0 50px;
+    display: block;
+    float: left;
+    position: absolute;
+    margin-top: -44%;
+  }
+
+  .timeline-corporate{
+    background:rgb(43, 42, 42);
+    height: 534px;
+    width: 4px;
+    border-radius: 5px;
+    margin: 20px 0 0 50px;
+    display: block;
+    float: left;
+    position: absolute;
+    margin-top: -44%;
+  }
   
   .point{
     background:rgb(36, 35, 35);
@@ -235,8 +262,7 @@
 .wedding-event-bg{
     background-image: url(./Images/wedding.jpg);
     background-position: center;
-    background-size: cover;  
-    background-color: black;
+    background-size: cover; 
 
 }
 
@@ -288,6 +314,22 @@
   width: 91%;
   height: 86%;
 }
+
+/*go to top*/
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 9px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-image: url(./Images/top.png);
+  cursor: pointer;
+  padding: 23px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: 48px 47px;
+  }
 
 body{
   overflow-x: hidden;
