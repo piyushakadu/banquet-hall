@@ -1,342 +1,572 @@
 /*HomePage*/
 .navbar {
-    transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .home-text{
-  color: white; 
-  font-family: Montserrat; 
-  font-size: 60px;
+color: white; 
+font-family: Montserrat; 
+font-size: 60px;
 }
 
 .lead-para{
-  color: white; 
-  font-family: Montserrat; 
-  font-size: 32px;
+color: white; 
+font-family: Montserrat; 
+font-size: 32px;
 }
 
 
 /* Change navbar styling on scroll */
 .navbar.active {
-    background: #fff;
-    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar.active .nav-link {
-    color: #555;
+  color: #555;
 }
 
 .navbar.active .nav-link:hover,
 .navbar.active .nav-link:focus {
-    color: #555;
-    text-decoration: none;
+  color: #555;
+  text-decoration: none;
 }
 
 .navbar.active .navbar-brand {
-    color: #555;
+  color: #555;
 }
 
 
 /* Change navbar styling on small viewports*/ 
 @media (max-width: 991.98px) {
-    .navbar {
-        background: #fff;
-    }
+  .navbar {
+      background: #fff;
+  }
 
-    .navbar .navbar-brand, .navbar .nav-link {
-        color: #555;
-    }
+  .navbar .navbar-brand, .navbar .nav-link {
+      color: #555;
+  }
 }
 
 .text-small {
-    font-size: 0.9rem !important;
+  font-size: 0.9rem !important;
 }
 
 .header{
-    background-image: url('./Images/HomePage.jpg');
-    background-position: center;
-    background-size: cover;  
-  }
+  background-image: url('./Images/HomePage.jpg');
+  background-position: center;
+  background-size: cover;  
+}
 
-  .nav-item{
-      color:white;
-  }
+.nav-item{
+    color:white;
+}
 
 /*button*/
 .button {
-    display: inline-block;
-    border-radius: 8px;
-    border: 1px solid rgb(255, 255, 255);
-    background-color: rgb(133, 30, 30,0.3);
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 20px;
-    padding: 6px;
-    width: 150px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 3px;
-    margin-bottom: 29%
-  }
-  
-  .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button:hover span {
-    padding-right: 25px;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
+  display: inline-block;
+  border-radius: 8px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(133, 30, 30,0.3);
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 6px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+  margin-top: 90%;
+  margin-bottom: 29%;
+}
 
-  /*about us*/
-  .aboutimg {
-     background-image: url(./Images/contact.jpg);
-     background-position: center;
-     background-size: cover;  
-  }
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
-  /*card*/
-     
- .card-social {
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*about us*/
+.aboutimg {
+   background-image: url(./Images/contact.jpg);
+   background-position: center;
+   background-size: cover;  
+}
+
+.button1{
+  border: 1px solid white;
+  font-size: 15px;
+  padding: 7px;
+  width: 120px;
+  border-radius: 0px;
+}
+
+.btn{
+    
+  font-size: 20px;
+  padding: 4px;
+  width: 150px;
+  border-radius: 0px;
+}
+
+/*card*/
+   
+.card-social {
   box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5);
-  width: 78%;
-  border-radius: 22%; /* this adds the "card" effect */
-  }
+  width: 81%;
+  border-radius: 23%;
+  height: 90%;
+}
 
 .card-img{
   border-radius: 22%;
+  height: 205px;
 }
 
-  .card-wedding {
-    box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5);
-    width: 78%;
-    border-radius: 22%;
-   
+.card-wedding {
+  box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5);
+  width: 81%;
+  border-radius: 23%;
+  height: 90%;
+ 
+}
+
+div.card-img-overlay{
+  background-color: rgb(0, 0, 0,0.7);
+  border-bottom-left-radius: 9%;
+  border-bottom-right-radius: 9%;
+  padding-top: 13px;
+  text-align: center;
+  color: white;
+}
+
+.card-img-overlay span{
+font-size: 13px;
 }
 
 
 .card-corporate {
   box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5);
-  width: 78%;
-  border-radius: 22%;
-  }
+  width: 81%;
+  border-radius: 23%;
+  height: 90%;
+}
 
 
 /*social*/
 .social-event-bg{
-    background-image: url(./Images/birthday.jpg);
-    background-position: center;
-    background-size: cover;  
- background-color: black;
+  background-image: url(./Images/birthday.jpg);
+  background-position: center;
+  background-size: cover;  
+background-color: rgb(0, 0, 0,0.7);
 
 }
 
 /*content*/
 .social{
-    margin-left: 18%;
-    letter-spacing:3px;
-    font-size: 65px;
-    font-family: Montserrat;
-    color: white;
+  margin-left: 18%;
+  letter-spacing:3px;
+  font-size: 65px;
+  font-family: Montserrat;
+  color: white;
 }
 
 .social-para{
-    margin-left: 18%;
-    font-size: 12px;
-    font-family: Montserrat;
-    color: white;
+  margin-left: 18%;
+  font-size: 12px;
+  font-family: Montserrat;
+  color: white;
 }
 
 /*gallery*/
 .overlay-social img{
-    width: 88%;
-    height: 87%;
+    width: 80%;
+    height: 95%;
+    border-radius: 11%;
 }
+/* .overlay-social .row{
+width: 70%;
+} */
 
+/* .custom-overlay{
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #0000009e;
+} */
 .big{
-    width: 88%;
-    height: 87%;
+  width: 88%;
+  height: 87%;
 }
 
 .overlay-social{
-    background-color:  rgba(0, 0, 0, 0.55);
-  }
-  
+  background-color:  rgba(0, 0, 0, 0.55);
+}
 
-  /*button*/
-  .btn-social{
-    border: 3px solid white;
-    font-size: 15px;
-    padding: 6px;
-    width: 150px;
-    border-radius: 0px;
-    margin-left: 10%;
-  }
 
-  /*scrollbar*/
-  .timeline-social{
-    background: rgb(43, 42, 42);
-    height: 534px;
-    width: 4px;
-    border-radius: 5px;
-    margin: 20px 0 0 50px;
-    display: block;
-    float: left;
-    position: relative;
-    margin-top: -44%;
-  }
+/*button*/
+.btn-social{
+  border: 3px solid white;
+  font-size: 15px;
+  padding: 6px;
+  width: 150px;
+  border-radius: 0px;
+  margin-left: 10%;
+}
 
-  .timeline-wedding{
-    background:rgb(43, 42, 42);
-    height: 534px;
-    width: 4px;
-    border-radius: 5px;
-    margin: 20px 0 0 50px;
-    display: block;
-    float: left;
-    position: absolute;
-    margin-top: -44%;
-  }
+/*scrollbar*/
+.timeline-social{
+  background: rgb(43, 42, 42);
+  height: 534px;
+  width: 4px;
+  border-radius: 5px;
+  margin: 20px 0 0 50px;
+  display: block;
+  float: left;
+  position: relative;
+  margin-top: -44%;
+}
 
-  .timeline-corporate{
-    background:rgb(43, 42, 42);
-    height: 534px;
-    width: 4px;
-    border-radius: 5px;
-    margin: 20px 0 0 50px;
-    display: block;
-    float: left;
-    position: absolute;
-    margin-top: -44%;
-  }
-  
-  .point{
-    background:rgb(36, 35, 35);
-    width:20px;
-    height:20px;
-    display:inline-block;
-    border-radius:100%;
-    position:absolute;
-    left:-7.5px;
-  }
-  
-  .point a{
-    display:block;
-    width:100%;
-    height:100%;
-  }
-  
-  .point-1{
-    top:20px;
-  
-  }
-  
-  .point-2{
-    top:50%;
-  }
-  
-  .point-3{
-    bottom:20px;
-  }
+.timeline-wedding{
+  background:rgb(43, 42, 42);
+  height: 534px;
+  width: 4px;
+  border-radius: 5px;
+  margin: 20px 0 0 50px;
+  display: block;
+  float: left;
+  position: absolute;
+  margin-top: -44%;
+}
 
-  .point.active
-  {background:white}
+.timeline-corporate{
+  background:rgb(43, 42, 42);
+  height: 534px;
+  width: 4px;
+  border-radius: 5px;
+  margin: 20px 0 0 50px;
+  display: block;
+  float: left;
+  position: absolute;
+  margin-top: -44%;
+}
+
+.point{
+  background:rgb(36, 35, 35);
+  width:20px;
+  height:20px;
+  display:inline-block;
+  border-radius:100%;
+  position:absolute;
+  left:-7.5px;
+}
+
+.point a{
+  display:block;
+  width:100%;
+  height:100%;
+}
+
+.point-1{
+  top:20px;
+
+}
+
+.point-2{
+  top:50%;
+}
+
+.point-3{
+  bottom:20px;
+}
+
+.point.active
+{background:white}
 
 /*wedding*/
 .wedding-event-bg{
-    background-image: url(./Images/wedding.jpg);
-    background-position: center;
-    background-size: cover; 
+  background-image: url(./Images/wedding.jpg);
+  background-position: center;
+  background-size: cover; 
 
 }
 
 /*corporate*/
 .corporate-event-bg{
-  background-image: url(./Images/corporate.jpg);
-  background-position: center;
-  background-size: cover;  
+background-image: url(./Images/corporate.jpg);
+background-position: center;
+background-size: cover;  
 }
 
 .overlay{
-  background-color:  rgba(0, 0, 0, 0.55);
+background-color:  rgba(0, 0, 0, 0.55);
 }
 
 /*contact*/
 .contact-bg{
-  background-image: url(./Images/contact.jpg);
-  background-position: center;
-  background-size: cover;  
+background-image: url(./Images/contact.jpg);
+background-position: center;
+background-size: cover;  
 }
 
 .footer{
-  color: white;
-  font-family: Montserrat;
+color: white;
+font-family: Montserrat;
 }
 
 .add{
-  margin-top: -7%;
-    margin-left: 22%;
+margin-top: -7%;
+  margin-left: 22%;
 }
 
 .num{
-  margin-top: -7%;
-    margin-left: 22%;
+margin-top: -7%;
+  margin-left: 22%;
 }
 
 .email{
-  margin-top: -7%;
-    margin-left: 22%;
+margin-top: -7%;
+  margin-left: 22%;
 }
 
 .map-content{
-  color: white;
-  font-family: Montserrat;
+color: white;
+font-family: Montserrat;
 }
 
 .map{
-  background-image: url(./Images/map.png);
-  width: 91%;
-  height: 86%;
+background-image: url(./Images/map.png);
+width: 91%;
+height: 86%;
 }
 
 /*go to top*/
 #back-to-top {
   position: fixed;
   bottom: 20px;
-  right: 9px;
+  right: 2px;
   z-index: 99;
   border: none;
   outline: none;
   background-image: url(./Images/top.png);
-  cursor: pointer;
-  padding: 23px;
-  border-radius: 10px;
+  padding: 18px;
+  border-radius: 8px;
   background-repeat: no-repeat;
-  background-size: 48px 47px;
-  }
+  background-size: 37px 38px;
+}
 
 body{
-  overflow-x: hidden;
+overflow-x: hidden;
+}
+.address-box-width{
+width: 60%;
+margin-left: auto;
+margin-right: auto;
 }
 
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 187px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
+}
+
+.line {
+  border: 1px solid gray;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575px){
+
+  /*home*/
+  .home-text{ 
+    font-size: 35px;
+    margin-top: 30%;
+    }
+    
+    .lead-para{ 
+    font-size: 20px;
+    }
+    
+    .button{
+    margin-top: 115%;
+    margin-bottom: 29%;
+  }
+  /*contact*/
+  .address-box-width{
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .social {
+    margin-left: 3%;
+    letter-spacing: 3px;
+    font-size: 60px;
+    font-family: Montserrat;
+    color: white;
+}
+
+.social-para {
+  margin-left: 5%;
+  font-size: 12px;
+  font-family: Montserrat;
+  color: white;
+}
+
+.btn-social {
+  border: 3px solid white;
+  font-size: 15px;
+  padding: 6px;
+  width: 150px;
+  border-radius: 0px;
+  margin-left: 5%;
+}
+
+.card-social {
+  width: 59%;
+    height: 96%;
+    margin-left: 18%;
+}
+
+.card-wedding {
+  width: 59%;
+  height: 96%;
+  margin-left: 18%;
+}
+
+.card-corporate{
+  width: 59%;
+    height: 96%;
+    margin-left: 18%;
+}
+
+.card-img {
+  width: 107%;
+  height: 96%;
+}
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+/*home*/
+.home-text{ 
+  font-size: 35px;
+  margin-top: 30%;
   }
   
+  .lead-para{ 
+  font-size: 20px;
+  }
+  
+  .button{
+  margin-top: 115%;
+  margin-bottom: 29%;
+}
+
+/*contact*/
+.address-box-width{
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social {
+  margin-left: 3%;
+  letter-spacing: 3px;
+  font-size: 60px;
+  font-family: Montserrat;
+  color: white;
+}
+
+.social-para {
+  margin-left: 5%;
+  font-size: 12px;
+  font-family: Montserrat;
+  color: white;
+}
+
+.btn-social {
+  border: 3px solid white;
+  font-size: 15px;
+  padding: 6px;
+  width: 150px;
+  border-radius: 0px;
+  margin-left: 5%;
+}
+
+
+} 
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+.address-box-width{
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social {
+  margin-left: 3%;
+  letter-spacing: 3px;
+  font-size: 60px;
+  font-family: Montserrat;
+  color: white;
+}
+
+
+.social-para {
+  margin-left: 5%;
+  font-size: 12px;
+  font-family: Montserrat;
+  color: white;
+}
+
+.btn-social {
+  border: 3px solid white;
+  font-size: 15px;
+  padding: 6px;
+  width: 150px;
+  border-radius: 0px;
+  margin-left: 5%;
+}
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px){
+
+}
