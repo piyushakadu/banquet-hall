@@ -517,6 +517,39 @@ margin-right: auto;
   margin-bottom: 29%;
 }
 
+/*about us*/
+.card-social {
+  width: 47%;
+  height: 87%;
+  margin-left: 23%;
+}
+
+.card-wedding {
+  width: 47%;
+  height: 87%;
+  margin-left: 23%;
+}
+
+.card-corporate{
+  width: 47%;
+  height: 87%;
+  margin-left: 23%;
+}
+
+.card-img {
+  width: 100%;
+  height: 88%;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 164px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* padding: 1.25rem; */
+}
+
 /*contact*/
 .address-box-width{
   width: 100% !important;
@@ -525,7 +558,7 @@ margin-right: auto;
 }
 
 .social {
-  margin-left: 3%;
+  margin-left: 11%;
   letter-spacing: 3px;
   font-size: 60px;
   font-family: Montserrat;
@@ -533,7 +566,7 @@ margin-right: auto;
 }
 
 .social-para {
-  margin-left: 5%;
+  margin-left: 12%;
   font-size: 12px;
   font-family: Montserrat;
   color: white;
@@ -555,7 +588,55 @@ margin-right: auto;
   right: 0;
   bottom: 0;
   left: 0;
+}
 
+.timeline-social {
+  background: rgb(43, 42, 42);
+    height: 485px;
+    width: 4px;
+    border-radius: 5px;
+    margin: 21px 0 0 50px;
+    display: block;
+    float: left;
+    position: relative;
+    margin-top: -41%;
+    margin-bottom: 2%;
+}
+
+/*go to top*/
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 52px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-image: url(./Images/top.png);
+  padding: 18px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: 37px 38px;
+}
+
+/*gallery*/
+.overlay-social img {
+  width: 80%;
+  height: 95%;
+  border-radius: 11%;
+}
+
+/*contact*/
+.add {
+  margin-top: -3%;
+  margin-left: 14%;
+}
+.email {
+  margin-top: -3%;
+    margin-left: 14%;
+}
+.num {
+  margin-top: -3%;
+  margin-left: 14%;
 }
 
 } 
@@ -639,6 +720,8 @@ margin-right: auto;
   background-repeat: no-repeat;
   background-size: 37px 38px;
 }
+
+
 
 /*contact*/
 .add {
