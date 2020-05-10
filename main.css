@@ -112,6 +112,28 @@ font-size: 32px;
    background-size: cover;  
 }
 
+div.card-img-overlay {
+  background-color: rgb(0, 0, 0,0.7);
+  /* border-bottom-left-radius: 27%; */
+  /* border-bottom-right-radius: 27%; */
+  padding-top: -24px;
+  /* text-align: center; */
+  color: white;
+  padding: 19%;
+  /* font-size: 97%; */
+  border-radius: 2px 1px 10px 9px;
+  margin-top: -10%;
+}
+
+.card-img-overlay span {
+  font-size: 12px;
+    position: absolute;
+    margin-top: -11px;
+    text-align: center;
+    margin-left: -64px;
+    letter-spacing: 1px;
+}
+
 .button1{
   border: 1px solid white;
   font-size: 15px;
@@ -133,28 +155,28 @@ font-size: 32px;
 .card-social {
   box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5);
   width: 81%;
-  border-radius: 23%;
+  border-radius: 7%;
   height: 90%;
 }
 
 .card-img{
-  border-radius: 22%;
+  border-radius: 5%;
   height: 205px;
 }
 
 .card-wedding {
   box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5);
   width: 81%;
-  border-radius: 23%;
+  border-radius: 7%;
   height: 90%;
  
 }
 
-div.card-img-overlay{
+/*div.card-img-overlay{
   background-color: rgb(0, 0, 0,0.7);
   border-bottom-left-radius: 27%;
   border-bottom-right-radius: 27%;
-  /* padding-top: 13px; */
+  /* padding-top: 13px; 
   text-align: center;
   color: white;
 }
@@ -165,13 +187,13 @@ div.card-img-overlay{
   margin-top: -11px;
   text-align: center;
   margin-left: -67px;
-}
+}*/
 
 
 .card-corporate {
   box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.5);
   width: 81%;
-  border-radius: 23%;
+  border-radius: 7%;
   height: 90%;
 }
 
@@ -325,6 +347,10 @@ background-size: cover;
 background-color:  rgba(0, 0, 0, 0.55);
 }
 
+.event{
+  background-color: rgba(26, 24, 24, 0.3);
+}
+
 /*contact*/
 .contact-bg{
 background-image: url(./Images/contact.jpg);
@@ -430,6 +456,29 @@ margin-right: auto;
     margin-right: auto;
   }
 
+/*about us*/
+div.card-img-overlay {
+  background-color: rgb(0, 0, 0,0.7);
+  /* border-bottom-left-radius: 27%; */
+  /* border-bottom-right-radius: 27%; */
+  padding-top: -24px;
+  /* text-align: center; */
+  color: white;
+  padding: 19%;
+  /* font-size: 97%; */
+  border-radius: 2px 1px 10px 9px;
+  margin-top: 8%;
+}
+
+.card-img-overlay span {
+  font-size: 19px;
+    position: absolute;
+    margin-top: -11px;
+    text-align: center;
+    margin-left: -98px;
+    letter-spacing: 1px;
+}
+
   /*event page*/
   .social {
     margin-left: 3%;
@@ -494,7 +543,8 @@ margin-right: auto;
 }
 
 .overlay-social img {
-  width: 100%;
+  width: 65%;
+  margin-left: 13%;
 }
 }
 
@@ -505,7 +555,7 @@ margin-right: auto;
 /*home*/
 .home-text{ 
   font-size: 35px;
-  margin-top: 30%;
+  margin-top: -2%;
   }
   
   .lead-para{ 
@@ -513,7 +563,7 @@ margin-right: auto;
   }
   
   .button{
-  margin-top: 115%;
+  margin-top: 20%;
   margin-bottom: 29%;
 }
 
@@ -548,6 +598,28 @@ margin-right: auto;
   bottom: 0;
   left: 0;
   /* padding: 1.25rem; */
+}
+
+div.card-img-overlay {
+  background-color: rgb(0, 0, 0,0.7);
+  /* border-bottom-left-radius: 27%; */
+  /* border-bottom-right-radius: 27%; */
+  padding-top: -24px;
+  /* text-align: center; */
+  color: white;
+  padding: 22%;
+  /* font-size: 97%; */
+  border-radius: 2px 1px 10px 9px;
+  margin-top: 8%;
+}
+
+.card-img-overlay span {
+  font-size: 22px;
+    position: absolute;
+    margin-top: -11px;
+    text-align: center;
+    margin-left: -98px;
+    letter-spacing: 1px;
 }
 
 /*contact*/
@@ -591,15 +663,15 @@ margin-right: auto;
 }
 
 .timeline-social {
-  background: rgb(43, 42, 42);
-    height: 485px;
+    background: #2b2a2a;
+    height: 490px;
     width: 4px;
     border-radius: 5px;
     margin: 21px 0 0 50px;
     display: block;
     float: left;
     position: relative;
-    margin-top: -41%;
+    margin-top: -42%;
     margin-bottom: 2%;
 }
 
@@ -607,7 +679,7 @@ margin-right: auto;
 #back-to-top {
   position: fixed;
   bottom: 20px;
-  right: 52px;
+  right: 63px;
   z-index: 99;
   border: none;
   outline: none;
@@ -623,6 +695,10 @@ margin-right: auto;
   width: 80%;
   height: 95%;
   border-radius: 11%;
+}
+
+.landscape-display-none{
+  display: none;
 }
 
 /*contact*/
@@ -659,6 +735,28 @@ margin-right: auto;
     margin-bottom: 62%;
 }
 
+/*about us*/
+div.card-img-overlay {
+  background-color: rgb(0, 0, 0,0.7);
+  /* border-bottom-left-radius: 27%; */
+  /* border-bottom-right-radius: 27%; */
+  padding-top: -24px;
+  /* text-align: center; */
+  color: white;
+    padding: 15%;
+    /* font-size: 97%; */
+    border-radius: 2px 1px 10px 9px;
+    margin-top: -8%;
+}
+
+.card-img-overlay span {
+  font-size: 14px;
+    position: absolute;
+    margin-top: -11px;
+    text-align: center;
+    margin-left: -78px;
+    letter-spacing: 1px;
+}
 
   /*contact*/
 .address-box-width{
@@ -710,7 +808,7 @@ margin-right: auto;
 #back-to-top {
   position: fixed;
   bottom: 20px;
-  right: 41px;
+  right: 65px;
   z-index: 99;
   border: none;
   outline: none;
