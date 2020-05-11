@@ -852,10 +852,14 @@ div.card-img-overlay {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px){
-
+/*.about-para{
+  margin-top: 77%;
+}*/
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px){
-
+  .about-para{
+    margin-top: 77%;
+  }
 }
