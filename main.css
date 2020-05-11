@@ -446,7 +446,7 @@ margin-right: auto;
     }
     
     .button{
-      margin-top: 128%;
+      margin-top: 94%;
       margin-bottom: 42%;
   }
   /*contact*/
@@ -467,7 +467,7 @@ div.card-img-overlay {
   padding: 19%;
   /* font-size: 97%; */
   border-radius: 2px 1px 10px 9px;
-  margin-top: 8%;
+  margin-top: -2%;
 }
 
 .card-img-overlay span {
@@ -545,6 +545,20 @@ div.card-img-overlay {
 .overlay-social img {
   width: 65%;
   margin-left: 13%;
+}
+.only-form{
+   padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer{
+  padding-left: 9%;
+    padding-right: 5%;
+}
+
+.new-class{
+  padding-left: 9%;
+  padding-right: 9%;
 }
 }
 
